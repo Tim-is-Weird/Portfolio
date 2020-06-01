@@ -1,0 +1,33 @@
+body, html{
+    overflow-x: hidden;
+    background-color: #34495E;
+}
+.header-img {
+    padding-top: 10px;
+}
+div.card-header{
+    padding-top: 1px;
+}
+.fa{
+    font-size: 1.5em;
+    padding: 20px;
+}
+a, .copyright{
+    color: #fff !important;
+}
+a.nav-link{
+    border-radius: 0px !important;
+    background-color:#1ABC9C !important;
+}
+a.nav-link.active, a.nav-link:hover{
+    background-color: #34495E !important;
+}
+@media (max-width: 768px) {
+    .header-img {
+        padding-top: none !important;
+    }
+    .fa{
+        font-size: 1em;
+        padding: 5px;
+    }
+  }
