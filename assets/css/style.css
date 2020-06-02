@@ -1,43 +1,66 @@
-body, html{
+body,
+html{
+    font-family: 'Montserrat', sans-serif !important;
     overflow-x: hidden;
     background-color: #34495E;
 }
-.card-body{
+.header-name{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #34495E;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.card-body {
     min-height: 500px !important;
 }
-.fa{
+
+.fa {
     font-size: 1.5em;
     padding: 20px;
 }
-#contact .fa-envelope, #contact .fa-whatsapp{
+
+/*Contact me icons*/
+#contact .fa-envelope,
+#contact .fa-whatsapp,
+#contact .fa-copy,
+#contact .fa-phone {
     font-size: 3em;
     display: block;
 }
-a, .copyright{
-    color: #fff !important;
-}
-a.nav-link{
+
+a.nav-link {
     border-radius: 0px !important;
-    background-color:#1ABC9C !important;
+    background-color: #1ABC9C !important;
 }
-a.nav-link.active, a.nav-link:hover{
+
+a.nav-link.active,
+a.nav-link:hover {
     background-color: #34495E !important;
 }
-iframe{
-    /* display: block;
-    margin: 0;
-    border: 0; */
-    background-color: #fff !important;
+
+a,
+.copyright {
+    color: #fff !important;
 }
+
+/*Responsive media*/
 @media (max-width: 768px) {
-    .fa{
+    .fa {
         font-size: 1em;
         padding: 5px;
     }
-  }
 
-@media (max-width: 375px){
-    .main-raised{
-        padding-top: 0px !important;
+    #contact .fa-envelope,
+    #contact .fa-whatsapp,
+    #contact .fa-copy,
+    #contact .fa-phone {
+        font-size: 2em;
+        display: block;
     }
 }
