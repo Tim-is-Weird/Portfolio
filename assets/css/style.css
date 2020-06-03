@@ -4,9 +4,12 @@ html{
     overflow-x: hidden;
     background-color: #34495E;
 }
-.header-name{
+.header-name a{
     font-family: 'Montserrat Subrayada', sans-serif;
-    color: #34495E;
+    color: #34495E !important;
+}
+.header-name a:hover{
+    color: #1ABC9C !important;
 }
 h1,
 h2,
@@ -62,5 +65,9 @@ a,
     #contact .fa-phone {
         font-size: 2em;
         display: block;
+    }
+    div iframe{
+        height: fit-content;
+        width: fit-content;
     }
 }
