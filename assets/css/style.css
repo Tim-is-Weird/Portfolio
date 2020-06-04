@@ -10,6 +10,7 @@ html{
 }
 .header-name a:hover{
     color: #1ABC9C !important;
+    font-size: 27px !important;
 }
 h1,
 h2,
@@ -65,9 +66,5 @@ a,
     #contact .fa-phone {
         font-size: 2em;
         display: block;
-    }
-    div iframe{
-        height: fit-content;
-        width: fit-content;
     }
 }
