@@ -1,70 +1,102 @@
+/*html*/
+/*body*/
 body,
 html{
-    font-family: 'Montserrat', sans-serif !important;
-    overflow-x: hidden;
-    background-color: #34495E;
+    font-family:        'Montserrat', sans-serif !important;
+    overflow-x:         hidden;
+    background-color:   #34495E;
 }
-.header-name a{
-    font-family: 'Montserrat Subrayada', sans-serif;
-    color: #34495E !important;
-}
-.header-name a:hover{
-    color: #1ABC9C !important;
-    font-size: 27px !important;
-}
+
+/*====Template Page====*/
 h1,
 h2,
 h3,
 h4,
 h5,
 h6{
-    font-family: 'Montserrat Alternates', sans-serif;
-}
+    font-family:        'Montserrat Alternates', sans-serif;}
+
+/*Card }*/
 .card-body {
-    min-height: 500px !important;
+    min-height:         500px !important;
+}
+   
+/*Header*/
+.header-name a{
+    font-family:        'Montserrat Subrayada', sans-serif;
+    color:              #34495E !important;
+}
+.header-name a:hover{
+    color:              #1ABC9C !important;
+    font-size:          27px !important;
 }
 
+/*Navigation*/
+a.nav-link {
+    border-radius:      0px !important;
+    background-color:   #1ABC9C !important;
+}
+a.nav-link.active,
+a.nav-link:hover {
+    background-color:   #34495E !important;
+}
+
+/*Social Icons*/
 .fa {
-    font-size: 1.5em;
-    padding: 20px;
+    font-size:          1.5em;
+    padding:            20px;
 }
 
+/*Copyright*/
+a,
+.copyright {
+    color:              #fff !important;
+}
+
+/*====Contacts Page====*/
 /*Contact me icons*/
 #contact .fa-envelope,
 #contact .fa-whatsapp,
 #contact .fa-copy,
 #contact .fa-phone {
-    font-size: 3em;
-    display: block;
+    font-size:          3em;
+    display:            block;
 }
 
-a.nav-link {
-    border-radius: 0px !important;
-    background-color: #1ABC9C !important;
+/*====Skills Page====*/
+.progress{
+    color:            #fff;
+    background-color: #34495E;
+    height:             20px;
 }
-
-a.nav-link.active,
-a.nav-link:hover {
-    background-color: #34495E !important;
+.skill{
+    font-size:          x-small;
+    text-align:         left;
+    color:            #000;
+    background-color: #1ABC9C;
 }
-
-a,
-.copyright {
-    color: #fff !important;
-}
-
+.supervised{width:      60%;}
+.unsupervised{width:    40%;}
+.reinforcement{width:   20%;}
+.frontend{width:        80%;}
+.backend{width:         60%;}
+.deployment{width:      10%;}
+.python{width:          60%;}
+.javascript{width:      40%;}
+.css{width:             50%;}
 /*Responsive media*/
-@media (max-width: 768px) {
+@media (max-width:      768px) {
     .fa {
-        font-size: 1em;
-        padding: 5px;
+        font-size:      1em;
+        padding:        5px;
     }
 
     #contact .fa-envelope,
     #contact .fa-whatsapp,
     #contact .fa-copy,
     #contact .fa-phone {
-        font-size: 2em;
-        display: block;
+        font-size:      2em;
+        display:        block;
     }
 }
+
