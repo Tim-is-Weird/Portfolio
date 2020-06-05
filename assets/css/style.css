@@ -53,27 +53,33 @@ a,
     color:              #fff !important;
 }
 
-/*====Contacts Page====*/
-/*Contact me icons*/
-#contact .fa-envelope,
-#contact .fa-whatsapp,
-#contact .fa-copy,
-#contact .fa-phone {
-    font-size:          3em;
-    display:            block;
+/* Portfolio Page */
+.card .card-header {
+    border-radius:      2px;
+    background:         none;
 }
-
-/*====Skills Page====*/
+.project a{
+    color: #000 !important;
+    text-decoration: underline;
+}
+/*====Skills Stats====*/
 .progress{
-    color:            #fff;
-    background-color: #34495E;
+    opacity:            0.8;
+    color:              #fff;
+    background-color:   #34495E;
     height:             20px;
+}
+.progress:hover{
+    opacity:            1;
 }
 .skill{
     font-size:          x-small;
     text-align:         left;
-    color:            #000;
-    background-color: #1ABC9C;
+    color:              #000;
+    background-color:   #1ABC9C;
+}
+.skill:hover{
+    font-size:          small;
 }
 .supervised{width:      60%;}
 .unsupervised{width:    40%;}
@@ -84,6 +90,20 @@ a,
 .python{width:          60%;}
 .javascript{width:      40%;}
 .css{width:             50%;}
+.git{width:             80%;}
+.vsc{width:             98%;}
+.linux{width:           98%;}
+
+/*====Contacts Page====*/
+/*Contact me icons*/
+#contact .fa-envelope,
+#contact .fa-whatsapp,
+#contact .fa-copy,
+#contact .fa-phone {
+    font-size:          3em;
+    display:            block;
+}
+
 /*Responsive media*/
 @media (max-width:      768px) {
     .fa {
