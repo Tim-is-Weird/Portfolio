@@ -119,4 +119,17 @@ a,
         display:        block;
     }
 }
-
+.fa-wpexplorer{
+    font-size:          100px;
+}
+.fa-wpexplorer:hover{
+    transition:         1s;
+    color:            #1968b7;
+    border-bottom:      3px solid;
+    padding-bottom:     50px;
+}
+.brand:hover{
+    transition:         1s;
+    border-bottom:      5px solid #1968b7;
+    padding-bottom:     50px;
+}
