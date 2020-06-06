@@ -50,7 +50,7 @@ a.nav-link:hover {
 /*Copyright*/
 a,
 .copyright {
-    color:              #fff !important;
+    color:              #000 !important;
 }
 
 /* Portfolio Page */
@@ -120,6 +120,7 @@ a,
     }
 }
 .fa-wpexplorer{
+    color: #fff;
     font-size:          100px;
 }
 .fa-wpexplorer:hover{
