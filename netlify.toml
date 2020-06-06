@@ -1,0 +1,11 @@
+[[redirects]]
+	from = "/*"
+	to   = "/portfolio/:splat"
+
+[[redirects]]
+	from = "/index.html"
+	to   = "/"
+
+[[redirects]]
+	from = "/home.html" 
+	to   = "/home"
